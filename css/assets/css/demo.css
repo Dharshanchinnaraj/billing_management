@@ -1,0 +1,136 @@
+#section-navigation {
+    position:relative;
+    margin-top:100px;
+}
+
+.btn-white {
+  font-family:'Lato';
+  font-weight:999;
+  min-width:100px;
+  background:transparent;
+  outline:none;
+  border:1px solid #000;
+  border-radius:22px;
+  padding:10px;
+  margin-right:10px;
+  margin-top:10px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-goback {
+  font-family:'Lato';
+  font-weight:999;
+  min-width:100px;
+  background:#eee;
+  color:#000;
+  outline:none;
+  border:none;
+  border-radius:22px;
+  padding:10px;
+  margin-right:10px;
+  margin-bottom:20px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-goback:hover {
+  opacity:.8;
+}
+
+
+.btn-white:hover { 
+  background:#000;
+  color:#fff;
+  outline:none;
+  border:1px solid #000;
+}
+
+.btn-active {
+  background:#000;
+  color:#fff;
+}
+
+
+
+
+
+.ex3 {
+  height: 220px;
+  overflow: auto;
+}
+
+.ex4 {
+  height: 150px;
+
+}
+div.gallery {
+    margin: 15px;
+    border: 1px solid #fff;
+    float: left;
+    width: 14%;
+    background-color: #e1d2d2;
+    padding: 19px;
+    border-radius: 12px;
+}
+
+div.gallery:hover {
+  border: 1px solid #f0e6e6;
+}
+
+div.gallery img {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.desc {
+  padding: 1px;
+  text-align: center;
+}
+
+.shadow1{
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+/*****************************************************************dashed border
+****************************************************************/
+
+/****************************************************************
+*styling shadows
+****************************************************************/
+.shadow1:before, .shadow1:after{
+  position:absolute;
+  content:"";
+  bottom:12px;left:15px;top:80%;
+  width:45%;
+  background:#9B7468;
+  z-index:-1;
+  -webkit-box-shadow: 0 20px 15px #9B7468;
+  -moz-box-shadow: 0 20px 15px #9B7468;
+  box-shadow: 0 20px 15px #9B7468;
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+.shadow1:after{
+  -webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+  transform: rotate(6deg);
+  right: 15px;left: auto;
+}
+
+
+
+.gallery:hover {
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari 3-8 */
+  transform: scale(1.15); 
+}
